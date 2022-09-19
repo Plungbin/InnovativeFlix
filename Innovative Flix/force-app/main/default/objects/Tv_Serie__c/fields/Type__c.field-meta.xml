@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>comedy</fullName>
+                <default>false</default>
+                <label>comedy</label>
+            </value>
+            <value>
+                <fullName>criminal</fullName>
+                <default>false</default>
+                <label>criminal</label>
+            </value>
+            <value>
+                <fullName>family</fullName>
+                <default>false</default>
+                <label>family</label>
+            </value>
+            <value>
+                <fullName>for kids</fullName>
+                <default>false</default>
+                <label>for kids</label>
+            </value>
+            <value>
+                <fullName>horror</fullName>
+                <default>false</default>
+                <label>horror</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
